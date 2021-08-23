@@ -1,0 +1,20 @@
+.container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  border: 1px solid blue;
+  width: 25%;
+  height: auto;
+  margin: 0 auto;
+  background-image: url("./img/ceu.jpg");
+  background-repeat: no-repeat;
+  margin-top: 200px;
+}
+.container:hover {
+  box-shadow: 2px 5px 2px black;
+}
+.list {
+  background-color: white;
+  flex-wrap: wrap;
+  box-shadow: 2px 5px 2px black;
+}
